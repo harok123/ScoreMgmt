@@ -18,8 +18,10 @@ public class Input {
 			
 			System.out.println("id: ");
 			String id = sc.nextLine();
+		
 			System.out.println("name: ");
 			String name = sc.nextLine();
+			
 			System.out.println("kor: ");
 			int kor = sc.nextInt();
 			System.out.println("eng: ");
@@ -28,8 +30,8 @@ public class Input {
 			int mat = sc.nextInt();
 			System.out.println("edps: ");
 			int edps = sc.nextInt();
-			
 			sc.nextLine();	//buffer 날리기
+			
 			ar[count-1] = new Student(id, name, kor, eng, mat, edps);
 			
 			System.out.print("계속(I/O) ? : ");
